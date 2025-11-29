@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* 2. Set the body to be a flex container that stacks its children vertically */
+body {
+    display: flex;
+    flex-direction: column; 
+    /* ... other styles ... */
+}
+
+.ui-header {
+  border: none !important;
+ 
+}
+
+[data-role="page"] {
+  text-shadow: none;
+}
+
+[data-role="header"] {
+  background-color: #0a2472 !important;
+  
+}
+
+/* target header image and remove large vertical gap */
+.pfp-container img {
+  display: block;
+  margin: 75px auto 0;
+  width: 100px;
+  height: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/* remove position shifting, use margins instead */
+.username {
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 1px 0 0px;     /* small bottom gap to the link */
+  position: static;    /* revert to normal flow */
+}
+
+/* reduce the link top margin */
+.user-link a {
+  display: block;
+  
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+}
+
+/* Fix background of the entire page (remove white edges) */
+
+.user-link a:hover {
+  color: #0a2472 !important;
+}
+
+.pfp-container {
+  background-image: url("images/2.png");
+  border-radius: 15px;                        /* rounded edges */
+  padding: 25px;                              /* inner spacing */
+  max-width: 800px;       
+  height: 200px;
+  margin: 0 auto 0px;                         /* center horizontally */
+  text-align: center;                         /* center all text */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  /* soft drop shadow */
+
+}
+
+
+[data-role="navbar"] {
+  display: flex;
+  justify-content: center ;
+  background-color: #051650;
+  color: #ffffff !important;
+  text-shadow: none !important;
+  background-color: #0a2472 !important;
+  
+  
+}
+
+.horizontal-navbar ul {
+  
+    color: #333 !important;
+    list-style: none;
+    width: 850px;
+   
+    
+  
+    
+}
+.horizontal-navbar a {
+    color: #ffffff !important;
+    text-shadow: none !important;
+    background-color: #0a2472 !important;
+   
+}
+.social-icons {
+
+    margin-top: 15px;
+    display: block;
+    gap: 15px;
+    
+}
+
+.social-icons a {
+    font-size: 28px;
+    color: #444;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1a73e8;
+}
+
+
+
+[data-role="content"] {
+ 
+  text-align: center;
+  padding: 10px;
+  
+ 
+  background-image: url("images/3.jpg");
+  background-size: cover;      /* makes the image cover the whole header */
+  background-position: center; /* keeps the image centered */
+  background-repeat: no-repeat;/* prevents tiling */
+  
+}
+
+
+.profile-container {
+  background-color: rgba(255, 255, 255, 0.15); /* light transparent background */
+  backdrop-filter: blur(10px);                /* frosted glass effect */
+  border-radius: 15px;                        /* rounded edges */
+  padding: 25px;                              /* inner spacing */
+  max-width: 800px;                           /* limit width */
+  margin: 40px auto;                          /* center horizontally */
+  text-align: center;                         /* center all text */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);  /* soft drop shadow */
+  color: rgb(0, 0, 0);
+                             /* white text */
+}
+
+.profile-container h2 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-container p {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+.favchars {
+  display: flex;
+}
+/* Customizing the Horizontal Navbar */
+
+[data-role="footer"] {
+  background-color: #051650 !important;
+}
+
+ul[data-role="listview"] li {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.3) !important;
+  padding: 15px 10px;
+  
+}
+
+ul[data-role="listview"] li img {
+  width: 150px;
+  height: 200px;
+  margin-top: 15px;
+  
+  
+}
+
+.anime-list{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+
+}
+
+/* Gallery Styles */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	
+}
+
+.gallery-container img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+h4{
+color:#ffffff;
+}
+
+/* Albums Gallery Container */
+.albums-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Each Album */
+.album {
+    text-align: center;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.album img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.album img:hover {
+    transform: scale(1.05);
+}
+
+.album h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 0 0;
+    color: #333;
+}

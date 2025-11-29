@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ericka Faine</title>
+
+    <!-- jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- jQuery and jQuery Mobile JS -->
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a2e0e6ad59.js" crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- HOME PAGE -->
+<div data-role="page" id="home">
+            <body style="background-image: url('images/2.pngs'); 
+             background-size: cover; 
+             background-repeat: no-repeat;">
+
+    <div data-role="header" data-theme="b">
+            <div class="pfp-container">
+                
+            <img src="images/pfp.jpg">
+            <p class="username"><strong>@Angglio</strong></p>
+
+            <div class="user-link">
+                <a href="https://anilist.co/user/Angglio/" target="_blank">
+                    https://anilist.co/user/Angglio
+                </a>
+            </div>
+        </div>
+    </div>
+        
+    <div data-role="navbar" class="horizontal-navbar">
+        <ul>
+            <li><a href="#bio" data-transition="slide">Anime List</a></li>
+            <li><a href="#albums" data-transition="slide">Manga List</a></li>
+            <li><a href="#awards" data-transition="slide">Reviews</a></li>
+            <li><a href="#gallery" data-transition="slide">Favorite Authors</a></li>
+        </ul>
+    </div>
+        
+    <div data-role="content">
+        <div class="profile-container">
+            <section id="welcomepage">
+                <h2>Welcome to My Profile</h2>
+                <p>
+                    Watching anime, for me, is about soaking in the experience, not rushing through it. 
+                    I prefer to watch just one episode a day. That slow pace really lets me connect 
+                    the characters and the world. I want the anime's openings and endings to get stuck 
+                    in my head and feel the true passage of time with the story—it makes the whole journey
+                    feel more meaningful. Beyond just enjoying the story, I am a huge fan of animation 
+                    itself, seeing it as the ultimate culmination of all the arts. It beautifully synthesizes
+                    elements of poetry, acting, editing, writing, photography, painting, and movement into a
+                    singular, dynamic experience. Anime, in particular, stands out as the best medium for 
+                    this kind of comprehensive artistic expression, pushing visual storytelling boundaries 
+                    with unmatched creativity and emotional depth. It was through recognizing this 
+                    artistic synergy that I truly fell in love with it.
+
+
+                </p>
+                <h2>My Favorite Characters</h2>
+                
+                <div class = "albums-gallery">
+                    
+                        <div class="album"><img src="images/f1.png"><h3>Emma (Veil)</h3></div>
+                        <div class="album"><img src="images/f2.jpg"><h3>Re-l (Ergo Proxy)</h3></div>
+                        <div class="album"><img src="images/f3.png"><h3>Shinwa (Tatami Galaxy)</h3></div>
+                        <div class="album"><img src="images/f4.jpg"><h3>Nanami (Kamisama Kiss)</h3></div>
+                        <div class="album"><img src="images/f5.png"><h3>Tomoe (Kamisama Kiss)</h3></div>
+                        <div class="album"><img src="images/f6.png"><h3>Pariya (A Bride's Story)</h3></div>
+                        <div class="album"><img src="images/f7.png"><h3>Yuji Itadori (Jujutsu Kaisen)</h3></div>
+            
+                </div>
+            </section>
+            
+        </div>
+        <div class="social-icons">
+  <a href="https://www.reddit.com/Angglio" target="_blank"><i class="fab fa-reddit"></i></a>
+  <a href="https://twitter.com/Angglio" target="_blank"><i class="fab fa-twitter"></i></a>
+  <a href="https://www.pinterest.com/Angglio" target="_blank"><i class="fab fa-pinterest"></i></a>
+</div>
+    </div>
+
+    <div data-role="footer" data-theme="b">
+        <h4>&copy; Angglio 2025</h4>
+    </div>
+</div>
+
+<!-- PAGE: Anime List -->
+<div data-role="page" id="bio">
+    <div data-role="header" data-theme="b">
+        <h1>Anime List</h1>
+        <a href="#home" data-role="button" data-icon="home" data-transition="flip" data-iconpos="notext">Home</a>
+    </div>
+
+    <div data-role="content">
+        <h2>Animes</h2>
+
+        <div class="albums-gallery">
+            <div class="album"><img src="images/a1.jpg"><h3>Orb (2025)</h3></div>
+            <div class="album"><img src="images/m2.jpg"><h3>Jujutsu Kaisen (2020)</h3></div>
+            <div class="album"><img src="images/a2.jpg"><h3>Grave of the Fireflies (1988)</h3></div>
+            <div class="album"><img src="images/a3.png"><h3>Sonny Boy (2021)</h3></div>
+            <div class="album"><img src="images/jjk3.png"><h3>Wolf Children (2017)</h3></div>
+            <div class="album"><img src="images/a4.jpg"><h3>Your Name (2019)</h3></div>
+            <div class="album"><img src="images/jjk5.png"><h3>Anne Shirley (2025)</h3></div>
+            <div class="album"><img src="images/a5.jpg"><h3>Spirited Away (2001)</h3></div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-theme="b">
+        <h4>&copy; Angglio 2025</h4>
+    </div>
+</div>
+
+<!-- PAGE: Manga List -->
+<div data-role="page" id="albums">
+    <div data-role="header" data-theme="b">
+        <h1>Manga List</h1>
+        <a href="#home" data-role="button" data-icon="home" data-transition="fade" data-iconpos="notext">Home</a>
+    </div>
+
+    <div data-role="content">
+        <h2>Mangas</h2>
+
+        <div class="albums-gallery">
+            <div class="album"><img src="images/m1.png"><h3>My Girlfriend's Child</h3></div>
+            <div class="album"><img src="images/m2.jpg"><h3>Jujutsu Kaisen</h3></div>
+            <div class="album"><img src="images/m5.jpg"><h3>A Bride's Story</h3></div>
+            <div class="album"><img src="images/m3.jpg"><h3>Veil</h3></div>
+            <div class="album"><img src="images/m4.jpg"><h3>A Condition Called Love</h3></div>
+            <div class="album"><img src="images/silentvoice.jpeg"><h3>A Silent Voice</h3></div>
+            <div class="album"><img src="images/monster.jpg"><h3>Monster</h3></div>
+            <div class="album"><img src="images/paradise.jpg"><h3>Paradise</h3></div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-theme="b">
+        <h4>&copy; Angglio 2025</h4>
+    </div>
+</div>
+
+<!-- PAGE: Reviews -->
+<div data-role="page" id="awards">
+    <div data-role="header" data-theme="b">
+        <h1>Reviews</h1>
+        <a href="#home" data-role="button" data-icon="home" data-transition="slidedown" data-iconpos="notext">Home</a>
+    </div>
+
+    <div data-role="content">
+        <h2>Reviews</h2>
+
+     <ul data-role="listview">
+            <div>
+            <li><strong>Fragrant Flowers Blooms With Dignity - 7.6/10</strong> <br><br>
+
+"A deeply wholesome and charming romance, which focuses on the intimate beauty of genuine connection. <br>
+It's broken people finding and bonding with one another to facilitate mutual healing. <br>
+Through their simple yet radical acts ofseeing past the other's external defenses to the kindness and<br>
+vulnerability underneath.This story is about overcoming deeply personal insecurities and prejudices, <br>
+ultimately showing how true love and acceptance can help people embrace their true selves."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\the-fragrant-flower-blooms-with-dignity.jpg" alt="Evermore Album"></li>
+            </div>
+
+            <div>
+            <li><strong>City the Animation - 9/10</strong><br><br>
+
+"So back when I was a kid I've learned of this word called "sonder" it's that every person around you <br>
+has a life as complex and vivid as your own, with their own dreams, worries, and stories.<br>
+Ever since then I've dreamed to write a story that encapsulates this feeling and this show is the closest<br>
+thing to this feeling"<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\City_volume_1_cover.jpg" alt="Evermore Album"></li>
+            </div>
+
+            <div>
+            <li><strong>The Summer Hikaru Died - 10/10</strong> <br><br>
+
+"Everyday I wake up being grateful that I was alive to watch this show weekly. I'm just mind blown every<br>
+time I watch it, like I can't believe a genius was able to create something like this."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\1742432851-9a84f5cb76ba49781e6a536f70596b2f.jpg" alt="Evermore Album"></li>
+
+            </div>
+
+            <div>
+            <li><strong>Anne Shirley - 8/10</strong> <br><br>
+
+"I’ve always thought of Anne of Green Gables as “baby’s first peak fiction,” and I mean that in the most <br>
+loving way possible. Growing up with Anne’s story, I learned how she navigated life: from being a neglected <br>
+child, to a cheerful friend, to a daughter who sometimes messes up but whose intentions are always good. We mourn<br>
+with her through the loss of a loved one, follow her from being a teenager into adulthood, and watch her balance a<br>
+burgeoning career with finding true love. This story has so much to offer an impressionable person, like myself, <br>
+seeking guidance. Anne’s journey is so relatable that you are bound to be emotionally touched by how deeply her <br>
+stories can affect you. The new adaptation certainly does justice in conveying these tales. I’ll admit that if a <br>
+person who had never heard of Anne’s story watched this as their first adaptation (like I was at one point), they<br>
+would likely enjoy it very much. But that is where it stops—it merely does justice; it is far from the best <br>
+adaptation of Anne’s story."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\jjk5.png">
+                </div>
+                <div>
+            <li><strong>The Apothecary Diaries S2 - 8.3/10 </strong><br><br>
+
+"This has been the greatest cour so far. It is the culmination of all the setup from the previous cours. It's just<br>
+a delight to watch it play out. Compared to the other cours there's a solid storyline instead of following Mao Mao<br>
+solve mysteries. Apothecary Diaries change genres in this season from mainly mystery to historical drama and I am on<br>
+the edge of my seat watching it."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\the-apothecary-diaries.avif"</li>
+                </div>
+
+                <div>
+<li><strong>Takopi's Original Sin - 7.2/10 </strong><br><br>
+
+
+"It dipped its toes in the water, but never really fully emerged from it. It presented a lot of great themes but never<br>
+really interested in tackling it and it kinda tricked a lot of people into thinking it's deeper than it actually is."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\8ec7c3993756d6aaa7f13ecf2d9c7c98.webp"</li>
+</div>
+
+<div>
+<li><strong>Solo Leveling S2 - 7.4/10 </strong><br><br>
+
+
+"This anime asks the question, what if the self-insert power fantasy anime, is pretty solid? It solves one of my main<br>
+gripes with these kinds of stories, they actually take the time to show the MC training and the second season is the <br>
+fruit of that seed."<br>
+
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\2b6d2aa7-eb43-40d0-b6ca-9688e7f3bb21.webp"</li>
+</div>
+
+<div>
+<li><strong>Orb: On the Movements of the Earth - 10/10</strong><br><br>
+
+
+"I absolutely love Orb! The characters obsession with research to the point that they would risk their lives, you can't<br>
+help but root for them. What sets it apart is the high-stakes tension; even small errors can have devastating results<br>
+largely because the antagonist is so compelling and they have maintained this for a 25 episode stretch, which makes the<br> 
+entire show so captivating, even if it was just characters presenting their thesis on the pursuit of truth.<br>
+There are still a few action set pieces here and there but the highlight of the show are characters pondering. At Chapter 3<br>
+or the final part of the series, majority of the scenes are just the characters talking, questioning and debating on what the<br>
+truth is."<br>
+<img src="C:\Users\Administrator\Documents\MOBILE ENTERPRISE\images\a1.jpg">
+</div>
+        </ul>
+    </div>
+
+    <div data-role="footer" data-theme="b">
+        <h4>&copy; Angglio 2025</h4>
+    </div>
+</div>
+
+<!-- PAGE: Favorite Authors -->
+<div data-role="page" id="gallery">
+    <div data-role="header" data-theme="b">
+        <h1>Favorite Authors</h1>
+        <a href="#home" data-role="button" data-icon="home" data-transition="pop" data-iconpos="notext">Home</a>
+    </div>
+
+    <div data-role="content">
+        <h2>Authors</h2>
+
+        <div class="gallery-container">
+            <div class="manga"><img src="images/gege.png"><h3>Gege Akutami</h3></div>
+            <div class="manga"><img src="images/fuji.png"><h3>Tatsuki Fujimoto</h3></div>
+            <div class="manga"><img src="images/Kaorumori_571.jpg"><h3>Kaoru Mori</h3></div>
+            <div class="manga"><img src="images/740full-rumiko-takahashi.jpg"><h3>Rumiko Takahashi</h3></div>
+            <div class="manga"><img src="images/uoto.jpg"><h3>Uoto</h3></div>
+            <div class="manga"><img src="images/julieta.webp"><h3>Julietta Suzuki</h3></div>
+        </div>
+
+    </div>
+
+     <div data-role="footer" data-theme="b">
+        <h4>&copy; Angglio 2025</h4>
+    </div>
+</div>
+
+</body>
+</html>
